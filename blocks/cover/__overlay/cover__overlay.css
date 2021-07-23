@@ -1,0 +1,21 @@
+.cover__overlay {
+  background: rgba(42, 44, 47, .3);
+  cursor: pointer;
+  transition: background .2s linear;
+}
+
+.cover__overlay:hover {
+  background: rgba(42, 44, 47, .8);
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .cover__overlay {
+    padding: 195px 232px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__overlay {
+    padding: 245px 312px;
+  }
+}

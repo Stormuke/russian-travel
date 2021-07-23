@@ -1,0 +1,8 @@
+.places {
+  display: grid;
+  max-width: 984px;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 80px;
+  padding-bottom: 92px;
+}

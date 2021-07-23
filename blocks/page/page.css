@@ -1,0 +1,23 @@
+@font-face {
+  src: url(../../vendor/fonts/Inter-Regular.woff);
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url(../../vendor/fonts/Inter-Bold.woff);
+  font-family: 'Inter';
+  font-weight: 700;
+}
+
+@font-face {
+  src: url(../../vendor/fonts/Inter-ExtraBold.woff);
+  font-family: 'Inter';
+  font-weight: 900;
+}
+
+.page {
+  background-color: rgba(42, 44, 47, 1);
+  font-family: 'Inter', Arial, sans-serif;
+  color: #fff;
+}
