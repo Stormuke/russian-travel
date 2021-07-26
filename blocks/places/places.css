@@ -1,8 +1,36 @@
 .places {
   display: grid;
-  max-width: 984px;
   margin: 0 auto;
   justify-content: center;
   gap: 80px;
   padding-bottom: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 100%;
+    padding-bottom: 66px;
+    gap: 64px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .places {
+    padding-bottom: 90px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .places {
+    max-width: 90.626%;
+    padding-bottom: 92px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .places {
+    max-width: 76.875%;
+    padding-bottom: 92px;
+  }
 }
