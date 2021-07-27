@@ -1,5 +1,7 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/container/container.css);
 
 /*header block*/
 @import url(../blocks/header/header.css);
@@ -19,6 +21,7 @@
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__lists/intro__lists.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__span-acent/intro__span-acent.css);
 
@@ -45,6 +48,7 @@
 
 /*footer*/
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);

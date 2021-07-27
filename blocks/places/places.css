@@ -2,7 +2,6 @@
   display: grid;
   margin: 0 auto;
   justify-content: center;
-  gap: 80px;
   padding-bottom: 92px;
 }
 
@@ -18,6 +17,7 @@
   .places {
     padding-bottom: 90px;
     max-width: 100%;
+    gap: 78px;
   }
 }
 
@@ -25,6 +25,7 @@
   .places {
     max-width: 90.626%;
     padding-bottom: 92px;
+    gap: 80px;
   }
 }
 
@@ -32,5 +33,6 @@
   .places {
     max-width: 76.875%;
     padding-bottom: 92px;
+    gap: 82px;
   }
 }

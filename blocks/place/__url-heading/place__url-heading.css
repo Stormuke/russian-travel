@@ -2,4 +2,8 @@
   color: rgba(170, 170, 170, 1);
   margin: 0;
   padding-bottom: 12px;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }

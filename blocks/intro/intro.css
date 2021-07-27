@@ -18,14 +18,14 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .intro {
-  max-width: 90.626%;
-  padding-bottom: 92px;
+    max-width: 90.626%;
+    padding-bottom: 92px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .intro {
-  max-width: 76.875%;
-  padding-bottom: 92px;
+    max-width: 76.875%;
+    padding-bottom: 92px;
   }
 }

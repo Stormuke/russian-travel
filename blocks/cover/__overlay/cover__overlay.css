@@ -1,33 +1,36 @@
 .cover__overlay {
-  background: rgba(42, 44, 47, .3);
+  display: block;
+  background: rgba(42, 44, 47, 0.3);
   cursor: pointer;
-  transition: background .2s linear;
+  transition: background 0.2s linear;
+  color: #fff;
+  text-decoration: none;
 }
 
 .cover__overlay:hover {
-  background: rgba(42, 44, 47, .8);
+  background: rgba(42, 44, 47, 0.8);
 }
 
 @media screen and (max-width: 768px) {
   .cover__overlay {
-    padding: 16.5% 8%;
+    padding: 12.5% 2%;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .cover__overlay {
-    padding: 23.96% 13.54%;
+    padding: 15.4% 13.54%;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .cover__overlay {
-    padding: 22.66% 19.04%;
+    padding: 19% 22%;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover__overlay {
-    padding: 19.14% 24.38%;
+    padding: 20.85% 26%;
   }
 }
