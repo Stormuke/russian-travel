@@ -5,27 +5,27 @@
 
 @media screen and (max-width: 768px) {
   .intro__text {
-    margin: 40px 0 41px;
+    margin: 40px 0 44px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .intro__text {
     max-width: 100%;
-    margin: 40px 0 36px;
+    margin: 40px 0 38px;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1028px) {
   .intro__text {
     max-width: 73%;
-    margin: 40px 0 34px;
+    margin: 40px 0 37px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .intro__text {
     max-width: 71%;
-    margin: 40px 0 34px;
+    margin: 40px 0 38px;
   }
 }
